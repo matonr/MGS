@@ -1,0 +1,18 @@
+Package: MGS
+Type: Package
+Title: Matrix Game Solver
+Version: 1.0.0
+Authors@R: 
+    person("Matej", "Novak", email = "matej.novak3@student.ukf.sk", role = c("aut", "cre"))
+Description: 
+    A collection of functions for analyzing and solving two-player zero-sum matrix games. 
+    Includes support for saddle point detection, dominated strategy elimination, solving diagonal and 
+    square matrices, graphical 2-by-n game solutions and pivoting algorithm for solving matrix games.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    graphics,
+    utils
